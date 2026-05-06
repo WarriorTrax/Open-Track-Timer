@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0B1220;
+  color: white;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  background: #111827;
+}
+
+.live {
+  color: #22C55E;
+}
+
+table {
+  width: 100%;
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid #1f2937;
+}
+
+.buttons {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+
+button {
+  flex: 1;
+  padding: 14px;
+  border: none;
+}
+
+button:first-child { background: #22C55E; }
+button:last-child { background: #374151; color: white; }

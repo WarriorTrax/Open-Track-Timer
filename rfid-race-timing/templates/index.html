@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RacePulse</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="topbar">
+  <div>🏁 RacePulse</div>
+  <div class="live">🟢 LIVE</div>
+</div>
+
+<div class="status">
+  <div id="count">Runners: 0</div>
+</div>
+
+<div id="podium"></div>
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Laps</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody id="board"></tbody>
+</table>
+
+<div class="buttons">
+  <button onclick="startRace()">Start</button>
+  <button onclick="resetRace()">Reset</button>
+</div>
+
+<script src="/static/app.js"></script>
+
+</body>
+</html>
